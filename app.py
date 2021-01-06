@@ -31,6 +31,7 @@ class LNUtjxxCaptchaGet:
                         break
                 if right:
                     retcode += str(i_sample)
+                    break
         return [retcode, checkcode_ori]
                     
 if __name__ == "__main__":
